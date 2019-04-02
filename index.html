@@ -19,16 +19,16 @@
       repo: '',
       homepage: 'introduction.md',
       loadSidebar: true,
-      alias: {
-        './.*/_sidebar.md': './_sidebar.md',
-        './_sidebar.md': './_sidebar.md'
-      },
+
       noEmoji: false,
       subMaxLevel: 2,
       pagination: {
         previousText: '上一章节',
         nextText: '下一章节',
       },
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md' // See #301
+      }
     }
   </script>
   <!-- <script src="//unpkg.com/docsify"></script> -->
