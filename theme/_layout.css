@@ -328,7 +328,7 @@ main {
   }
 
   span {
-    background-color: var(--theme-color, $color-primary);
+    background-color: white;
     display: block;
     margin-bottom: 4px;
     size: 16px 2px;

@@ -1,32 +1,40 @@
 /* @import url('https://fonts.googleapis.com/css?family=Space+Mono'); */
 
 @font-face {
-  font-family: sm;
-  src: url(fonts/SpaceMono-Regular.ttf);
+  font-family: kentos;
+  src: url(./fonts/KentosT16-Regular.otf);
   font-weight: normal;
 }
 @font-face {
-  font-family: sm;
-  src: url(fonts/SpaceMono-Bold.ttf);
+  font-family: kentos;
+  src: url(./fonts/KentosT16-bold.otf);
   font-weight: bold;
 }
 
 body{
-  font-family: -apple-system,BlinkMacSystemFont , "Helvetica Neue", "PingFang SC", "Noto Sans" , "Noto Sans CJK SC" , sans-serif;
-  color: #402E29;
+  font-family: kentos ,-apple-system,BlinkMacSystemFont , "Helvetica Neue", "PingFang SC", "Noto Sans" , "Noto Sans CJK SC" , sans-serif;
+  color: #1D1E22;
   font-size: 15px;
   letter-spacing: -0.01rem;
   font-synthesis: style;
 }
 .sidebar{
   padding: 0;
+  background: #F2F4F7;
+  width: 280px;
+  border: 0;
+  overflow: auto
 }
 .sidebar-nav{
   padding: 80px 0 0;
-  background: url(images/logo-mvl.svg) no-repeat;
-  background-size: 170px 36px;
+  background: url(images/logo-mul.svg) no-repeat;
+  background-size: 170px 26px;
   background-position: center 100px;
-  font-family: sm;
+  font-family: kentos;
+}
+
+.sidebar-toggle{
+  background: none;
 }
 
 .sidebar-nav ul{
@@ -34,7 +42,7 @@ body{
 }
 
 .sidebar ul li a{
-  color: #402E29;
+  color: rgba(15, 26, 66, 0.55);
   font-size: 15px;
   line-height: 2.2;
 }
@@ -44,16 +52,25 @@ body{
 }
 
 .sidebar-nav ul li{
-  margin: 6px 0 6px 0px;
+  margin: 10px 0 10px 0px;
   /* padding-left: 36px; */
   overflow: visible;
 }
 .sidebar-nav ul li>a{
-  padding-left: 40px;
+  padding : 4px 30px;
+}
+
+.sidebar-nav ul{
+  margin: 0;
+}
+
+.sidebar-toggle span{
+  color: #2B4EEF;
+  background: #2B4EEF;
 }
 
 .sidebar-nav ul li>a:before{
-  content: "→"!important;
+  content: "×"!important;
   color: #d5d5d5;
   display: inline-block;
   padding-right: 12px;
@@ -61,13 +78,16 @@ body{
 }
 
 .sidebar-nav ul li.active>a{
-  background: #402E29;
+  background: rgb(222, 227, 247);
   /* display: block; */
   
 }
 .sidebar ul li.active>a{
-  border-right: 4px solid #49E19A;
-  color: #ffffff;
+  border: 0;
+  border-left: 4px solid #2B4EEF;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+  color: #1D1E22;
 
 }
 
@@ -118,11 +138,11 @@ body{
 }
 
 .anchor span{
-  color: #402E29;
+  color: #1D1E22;
 }
 
 .markdown-section a{
-  color: #49E19A;
+  color: #2B4EEF;
   
 }
 
@@ -160,7 +180,8 @@ body{
 .markdown-section blockquote{
   background: #fafafa;
   padding: 1px 20px;
-  border-color: #49E19A;
+  border-color: #2B4EEF;
+  color: rgba(15, 26, 66, 0.55);
 }
 
 ul,li{
@@ -173,7 +194,8 @@ ul,li{
 }
 
 .markdown-section p{
-  line-height: 1.988;
+  line-height: 1.82;
+  font-size: 1.2em;
   letter-spacing: -0.02rem;
 }
 
@@ -181,17 +203,44 @@ ul,li{
   word-break: normal;
   word-wrap: break-word;
   text-align: justify;
-  max-width: 52vw;
+
+  max-width: 62vw;
   padding: 40px 70px;
 }
+
+.markdown-section img{
+  border-radius: 10px
+}
+
 .markdown-section em{
   font-style: normal;
-  color: #402E29;
+  color: #1D1E22;
   font-weight: bold;
 }
 
 .markdown-section em.s{
-  background: linear-gradient(transparent 70%, rgba(79, 238, 148, 0.801) 70%);
+  background: linear-gradient(transparent 70%, rgba(43, 78, 239, 0.501) 20%);
+}
+
+.markdown-section em.s:hover{
+  background: linear-gradient(transparent 70%, rgba(43, 78, 239, 0.701) 20%);
+}
+
+.markdown-section .download{
+  background: rgba(227, 228, 235, 0.493);
+  border: 1px solid rgba(217, 218, 224, 0.705);
+  border-radius: 6px;
+  display: inline-block;
+  margin: 30px 0 30px 0;
+  padding: 30px 40px 30px 100px;
+  background-image: url(../schemes/download.svg);
+  background-repeat: no-repeat;
+  background-position: 25px center;
+  text-decoration: none;
+}
+
+.markdown-section .download:hover{
+  opacity: 0.7;
 }
 
 .markdown-section center{
@@ -201,7 +250,7 @@ ul,li{
 }
 .markdown-section ul li:before{
   content: "\2022";
-  color: #49E19A;
+  color: #2B4EEF;
   display: block;
   position: absolute;
   left: -20px;
@@ -210,10 +259,23 @@ ul,li{
 
 .markdown-section ul{
   list-style: none;
+  font-size: 1.2em;
 }
+
+
 
 .markdown-section blockquote p{/*引用*/
   font-weight: normal;
+}
+
+.markdown-section ul {/*引用*/
+  margin-left: 20px;
+}
+
+.markdown-section ul li {/*引用*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.9em;
 }
 
 .markdown-section h1{/*大标题*/
@@ -221,7 +283,7 @@ ul,li{
 }
 
 .markdown-section a.b{
-  background: #49E19A;
+  background: #2B4EEF;
   border-radius: 4px;
   color: white;
   display: inline-block;
@@ -239,4 +301,42 @@ ul,li{
     max-width: 100%;
     padding: 60px 30px;
   }
+  .palette-frame .palette-color{
+    height: 60px!important;
+  }
+  .palette-frame p{
+    float: left;
+    vertical-align: middle;
+    font-size: 1em!important;
+  }
+}
+
+.markdown-section .palette-frame {
+  box-shadow: 0px 10px 15px rgba(36, 41, 58, 0.17); 
+  border-radius: 5px;
+  overflow: hidden;
+  padding-bottom: 18px;
+}
+
+.palette-frame p{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  padding: 0 20px;
+}
+
+.palette{
+  margin: 0 -15px;
+  padding-bottom: 20px;
+}
+
+.palette-frame .palette-color{
+  height: 120px;
+  /* background: #F54154; */
+  margin-bottom: 10px;
+}
+
+.palette-frame .sub{
+  font-size: 0.8em;
+  color: #a7a8a7;
 }

@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Melon Video Language</title>
+  <title>乘法云设计系统</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="./library/simple-grid.min.css">
   <link rel="stylesheet" href="./theme/melon.css">
+  
 </head>
 <body>
   <div id="app"></div>
@@ -15,13 +17,21 @@
     window.$docsify = {
       name: '',
       repo: '',
-      homepage: 'quickstart.md',
+      homepage: 'introduction.md',
       loadSidebar: true,
       noEmoji: false,
-      subMaxLevel: 2
+      subMaxLevel: 2,
+      pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+      },
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md' // See #301
+      }
     }
   </script>
   <!-- <script src="//unpkg.com/docsify"></script> -->
   <script src="./library/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>

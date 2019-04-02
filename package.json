@@ -1,7 +1,7 @@
 {
   "name": "mvl",
   "version": "1.0.0",
-  "description": "Melon Video Language",
+  "description": "MulCloud",
   "main": "index.js",
   "directories": {
     "doc": "docs"
