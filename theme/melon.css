@@ -1,0 +1,342 @@
+/* @import url('https://fonts.googleapis.com/css?family=Space+Mono'); */
+
+@font-face {
+  font-family: kentos;
+  src: url(./fonts/KentosT16-Regular.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: kentos;
+  src: url(./fonts/KentosT16-bold.otf);
+  font-weight: bold;
+}
+
+body{
+  font-family: kentos ,-apple-system,BlinkMacSystemFont , "Helvetica Neue", "PingFang SC", "Noto Sans" , "Noto Sans CJK SC" , sans-serif;
+  color: #1D1E22;
+  font-size: 15px;
+  letter-spacing: -0.01rem;
+  font-synthesis: style;
+}
+.sidebar{
+  padding: 0;
+  background: #F2F4F7;
+  width: 280px;
+  border: 0;
+  overflow: auto
+}
+.sidebar-nav{
+  padding: 80px 0 0;
+  background: url(images/logo-mul.svg) no-repeat;
+  background-size: 170px 26px;
+  background-position: center 100px;
+  font-family: kentos;
+}
+
+.sidebar-toggle{
+  background: none;
+}
+
+.sidebar-nav ul{
+  padding-top: 120px;
+}
+
+.sidebar ul li a{
+  color: rgba(15, 26, 66, 0.55);
+  font-size: 15px;
+  line-height: 2.2;
+}
+
+.sidebar-nav a:hover{
+  text-decoration: none!important;
+}
+
+.sidebar-nav ul li{
+  margin: 10px 0 10px 0px;
+  /* padding-left: 36px; */
+  overflow: visible;
+}
+.sidebar-nav ul li>a{
+  padding : 4px 30px;
+}
+
+.sidebar-nav ul{
+  margin: 0;
+}
+
+.sidebar-toggle span{
+  color: #2B4EEF;
+  background: #2B4EEF;
+}
+
+.sidebar-nav ul li>a:before{
+  content: "×"!important;
+  color: #d5d5d5;
+  display: inline-block;
+  padding-right: 12px;
+  vertical-align: middle;
+}
+
+.sidebar-nav ul li.active>a{
+  background: rgb(222, 227, 247);
+  /* display: block; */
+  
+}
+.sidebar ul li.active>a{
+  border: 0;
+  border-left: 4px solid #2B4EEF;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+  color: #1D1E22;
+
+}
+
+.sidebar-nav .app-sub-sidebar li:before{
+  content: "";
+  padding-right: 4px;
+  float: left
+}
+
+.sidebar-nav .app-sub-sidebar li>a{
+  padding-left: 60px;
+}
+
+.sidebar-nav .app-sub-sidebar ul.children li>a{
+  padding-left: 80px;
+  font-size: 13px;
+}
+
+/* .sidebar-nav .app-sub-siebar li.active a{
+  color: #ffffff;
+  /* padding-left: 30px; */
+} */
+
+/* .sidebar-nav ul li a:before{
+  font-family: "Space Mono";
+  content: "->";
+  display: inline-block;
+  padding-right: 0px;
+  vertical-align: middle;
+  padding-left: -20px;
+} */
+
+.sidebar-nav ul li a:before{
+  /* font-family: "Space Mono"; */
+  
+}
+
+.sidebar-nav ul.children li{
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.sidebar-nav ul.children li a{
+  margin-left: 0;
+  font-size: 0.83em;
+  line-height: 2.2;
+  padding: 4px 0px 4px 20px;
+}
+
+.anchor span{
+  color: #1D1E22;
+}
+
+.markdown-section a{
+  color: #2B4EEF;
+  
+}
+
+.markdown-section code,.markdown-section pre>code{
+  font-family:"Roboto Mono", mono;
+  color: #F54154;
+  margin: 0;
+  pad: 1px 4px;
+  font-size: 13px;
+}
+
+.markdown-section p.update{
+  background: #fafafa;
+  padding: 1px 20px;
+  color: #c7c7c7;
+  text-align: right;
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px #ededed solid;
+
+}
+
+.markdown-section p.copyright{
+  color: #c7c7c7;
+  text-align: right;
+  font-size: 12px;
+  line-height: 0.2em;
+
+}
+.markdown-section ul li{
+  position: relative;
+  margin-left: -24px;
+}
+
+.markdown-section blockquote{
+  background: #fafafa;
+  padding: 1px 20px;
+  border-color: #2B4EEF;
+  color: rgba(15, 26, 66, 0.55);
+}
+
+ul,li{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline
+}
+
+.markdown-section p{
+  line-height: 1.82;
+  font-size: 1.2em;
+  letter-spacing: -0.02rem;
+}
+
+.markdown-section{
+  word-break: normal;
+  word-wrap: break-word;
+  text-align: justify;
+
+  max-width: 62vw;
+  padding: 40px 70px;
+}
+
+.markdown-section img{
+  border-radius: 10px
+}
+
+.markdown-section em{
+  font-style: normal;
+  color: #1D1E22;
+  font-weight: bold;
+}
+
+.markdown-section em.s{
+  background: linear-gradient(transparent 70%, rgba(43, 78, 239, 0.501) 20%);
+}
+
+.markdown-section em.s:hover{
+  background: linear-gradient(transparent 70%, rgba(43, 78, 239, 0.701) 20%);
+}
+
+.markdown-section .download{
+  background: rgba(227, 228, 235, 0.493);
+  border: 1px solid rgba(217, 218, 224, 0.705);
+  border-radius: 6px;
+  display: inline-block;
+  margin: 30px 0 30px 0;
+  padding: 30px 40px 30px 100px;
+  background-image: url(../schemes/download.svg);
+  background-repeat: no-repeat;
+  background-position: 25px center;
+  text-decoration: none;
+}
+
+.markdown-section .download:hover{
+  opacity: 0.7;
+}
+
+.markdown-section center{
+  font-style: normal;
+  color: rgb(179, 179, 179);
+  font-size: 13px;
+}
+.markdown-section ul li:before{
+  content: "\2022";
+  color: #2B4EEF;
+  display: block;
+  position: absolute;
+  left: -20px;
+  font-size: 20px
+}
+
+.markdown-section ul{
+  list-style: none;
+  font-size: 1.2em;
+}
+
+
+
+.markdown-section blockquote p{/*引用*/
+  font-weight: normal;
+}
+
+.markdown-section ul {/*引用*/
+  margin-left: 20px;
+}
+
+.markdown-section ul li {/*引用*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+.markdown-section h1{/*大标题*/
+  margin-top: 30px;
+}
+
+.markdown-section a.b{
+  background: #2B4EEF;
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  padding: 8px 30px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.markdown-section a.b:hover{
+  background: rgb(49, 197, 123);
+}
+
+@media (max-width: 767px){
+  .markdown-section{
+    max-width: 100%;
+    padding: 60px 30px;
+  }
+  .palette-frame .palette-color{
+    height: 60px!important;
+  }
+  .palette-frame p{
+    float: left;
+    vertical-align: middle;
+    font-size: 1em!important;
+  }
+}
+
+.markdown-section .palette-frame {
+  box-shadow: 0px 10px 15px rgba(36, 41, 58, 0.17); 
+  border-radius: 5px;
+  overflow: hidden;
+  padding-bottom: 18px;
+}
+
+.palette-frame p{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  padding: 0 20px;
+}
+
+.palette{
+  margin: 0 -15px;
+  padding-bottom: 20px;
+}
+
+.palette-frame .palette-color{
+  height: 120px;
+  /* background: #F54154; */
+  margin-bottom: 10px;
+}
+
+.palette-frame .sub{
+  font-size: 0.8em;
+  color: #a7a8a7;
+}

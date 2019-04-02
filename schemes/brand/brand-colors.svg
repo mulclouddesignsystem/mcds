@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="880px" height="443px" viewBox="0 0 880 443" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 4 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="105.200629%" x2="100%" y2="5.55111512e-15%" id="linearGradient-1">
+            <stop stop-color="#283266" offset="0%"></stop>
+            <stop stop-color="#2B4EEF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="105.200629%" x2="100%" y2="5.55111512e-15%" id="linearGradient-2">
+            <stop stop-color="#990011" offset="0%"></stop>
+            <stop stop-color="#DC4405" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="5.55111512e-15%" x2="100%" y2="105.200629%" id="linearGradient-3">
+            <stop stop-color="#F8C413" offset="0%"></stop>
+            <stop stop-color="#ED8B00" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="5.55111512e-15%" x2="100%" y2="105.200629%" id="linearGradient-4">
+            <stop stop-color="#3B9F6B" offset="0%"></stop>
+            <stop stop-color="#1F584B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard-4-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(16.671875, 59.000000)">
+            <rect id="Rectangle" fill="url(#linearGradient-1)" x="0.609375" y="0.458984375" width="169" height="169"></rect>
+            <rect id="Rectangle" fill="#283266" x="0.609375" y="84.9589844" width="84.5" height="84.5"></rect>
+            <rect id="Rectangle" fill="#1D1E22" x="26.2402344" y="110.589844" width="33.2382813" height="33.2382813"></rect>
+            <rect id="Rectangle-Copy-3" fill="#2B4EEF" x="0.609375" y="0.458984375" width="84.5" height="84.5"></rect>
+            <rect id="Rectangle-Copy" fill="#283266" x="0.609375" y="202.947266" width="31.5390625" height="31.5390625"></rect>
+            <rect id="Rectangle-Copy-2" fill="#2B4EEF" x="0.609375" y="247.974609" width="31.5390625" height="31.5390625"></rect>
+            <rect id="Rectangle-Copy-4" fill="#F3F4FA" x="0.609375" y="293.001953" width="31.5390625" height="31.5390625"></rect>
+            <text id="Pantone-3581" font-family="KentosT16-Light, Kentos T16" font-size="12" font-weight="300" fill="#9599AF">
+                <tspan x="43.609375" y="231.486328">Pantone 3581</tspan>
+            </text>
+            <text id="Pantone-2132" font-family="KentosT16-Light, Kentos T16" font-size="12" font-weight="300" fill="#9599AF">
+                <tspan x="43.609375" y="277.513672">Pantone 2132</tspan>
+            </text>
+            <text id="Pantone-426" font-family="KentosT16-Light, Kentos T16" font-size="12" font-weight="300" fill="#9599AF">
+                <tspan x="43.609375" y="322.541016">Pantone 426</tspan>
+            </text>
+            <text id="Star-Night" font-family="KentosT16-SemiBold, Kentos T16" font-size="14" font-weight="500" fill="#1D1E22">
+                <tspan x="43.609375" y="214.486328">Star Night</tspan>
+            </text>
+            <text id="Dawn" font-family="KentosT16-SemiBold, Kentos T16" font-size="14" font-weight="500" fill="#1D1E22">
+                <tspan x="43.609375" y="260.513672">Dawn</tspan>
+            </text>
+            <text id="Dusk" font-family="KentosT16-SemiBold, Kentos T16" font-size="14" font-weight="500" fill="#1D1E22">
+                <tspan x="43.609375" y="305.541016">Dusk</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(242.218750, 59.000000)">
+            <rect id="Rectangle-Copy-5" fill="url(#linearGradient-2)" x="0.80078125" y="0.458984375" width="169" height="169"></rect>
+            <rect id="Rectangle-Copy-6" fill="#DC4405" x="0.80078125" y="84.9589844" width="84.5" height="84.5"></rect>
+            <rect id="Rectangle-Copy-7" fill="#990011" x="26.4316406" y="110.589844" width="33.2382813" height="33.2382813"></rect>
+            <rect id="Rectangle-Copy-8" fill="#BA0020" x="0.80078125" y="0.458984375" width="84.5" height="84.5"></rect>
+            <rect id="Rectangle-Copy-9" fill="#BA0020" x="0.80078125" y="202.947266" width="31.5390625" height="31.5390625"></rect>
+            <rect id="Rectangle-Copy-10" fill="#DC4405" x="0.80078125" y="247.974609" width="31.5390625" height="31.5390625"></rect>
+            <rect id="Rectangle-Copy-11" fill="#990011" x="0.80078125" y="293.001953" width="31.5390625" height="31.5390625"></rect>
+            <text id="Pantone-3517" font-family="KentosT16-Light, Kentos T16" font-size="12" font-weight="300" fill="#9599AF">
+                <tspan x="43.8007812" y="231.486328">Pantone 3517</tspan>
+            </text>
+            <text id="Pantone-1665" font-family="KentosT16-Light, Kentos T16" font-size="12" font-weight="300" fill="#9599AF">
+                <tspan x="43.8007812" y="277.513672">Pantone 1665</tspan>
+            </text>
+            <text id="Pantone-Space-Cherry" font-family="KentosT16-Light, Kentos T16" font-size="12" font-weight="300" fill="#9599AF">
+                <tspan x="43.8007812" y="322.541016">Pantone Space Cherry</tspan>
+            </text>
+            <text id="Cinnabar" font-family="KentosT16-SemiBold, Kentos T16" font-size="14" font-weight="500" fill="#1D1E22">
+                <tspan x="43.8007812" y="214.486328">Cinnabar</tspan>
+            </text>
+            <text id="Solar" font-family="KentosT16-SemiBold, Kentos T16" font-size="14" font-weight="500" fill="#1D1E22">
+                <tspan x="43.8007812" y="260.513672">Solar</tspan>
+            </text>
+            <text id="Space-Cherry" font-family="KentosT16-SemiBold, Kentos T16" font-size="14" font-weight="500" fill="#1D1E22">
+                <tspan x="43.8007812" y="305.541016">Space Cherry</tspan>
+            </text>
+        </g>
+        <g id="Group-3" transform="translate(469.765625, 59.000000)">
+            <rect id="Rectangle-Copy-12" fill="url(#linearGradient-3)" x="0.9921875" y="0.458984375" width="169" height="169"></rect>
+            <rect id="Rectangle-Copy-13" fill="#EB9D00" x="0.9921875" y="84.9589844" width="84.5" height="84.5"></rect>
+            <rect id="Rectangle-Copy-14" fill="#ED8B00" x="26.6230469" y="110.589844" width="33.2382813" height="33.2382813"></rect>
+            <rect id="Rectangle-Copy-15" fill="#F8C413" x="0.9921875" y="0.458984375" width="84.5" height="84.5"></rect>
+            <rect id="Rectangle-Copy-16" fill="#F8C413" x="0.9921875" y="202.947266" width="31.5390625" height="31.5390625"></rect>
+            <rect id="Rectangle-Copy-17" fill="#EB9D00" x="0.9921875" y="247.974609" width="31.5390625" height="31.5390625"></rect>
+            <rect id="Rectangle-Copy-18" fill="#ED8B00" x="0.9921875" y="293.001953" width="31.5390625" height="31.5390625"></rect>
+            <text id="Pantone-7548" font-family="KentosT16-Light, Kentos T16" font-size="12" font-weight="300" fill="#9599AF">
+                <tspan x="43.9921875" y="231.486328">Pantone 7548</tspan>
+            </text>
+            <text id="Pantone-2012" font-family="KentosT16-Light, Kentos T16" font-size="12" font-weight="300" fill="#9599AF">
+                <tspan x="43.9921875" y="277.513672">Pantone 2012</tspan>
+            </text>
+            <text id="Pantone-144" font-family="KentosT16-Light, Kentos T16" font-size="12" font-weight="300" fill="#9599AF">
+                <tspan x="43.9921875" y="322.541016">Pantone 144</tspan>
+            </text>
+            <text id="Pipa" font-family="KentosT16-SemiBold, Kentos T16" font-size="14" font-weight="500" fill="#1D1E22">
+                <tspan x="43.9921875" y="214.486328">Pipa</tspan>
+            </text>
+            <text id="Fagus" font-family="KentosT16-SemiBold, Kentos T16" font-size="14" font-weight="500" fill="#1D1E22">
+                <tspan x="43.9921875" y="260.513672">Fagus</tspan>
+            </text>
+            <text id="Taurus" font-family="KentosT16-SemiBold, Kentos T16" font-size="14" font-weight="500" fill="#1D1E22">
+                <tspan x="43.9921875" y="305.541016">Taurus</tspan>
+            </text>
+        </g>
+        <g id="Group-4" transform="translate(695.312500, 59.000000)">
+            <rect id="Rectangle-Copy-19" fill="url(#linearGradient-4)" x="0.18359375" y="0.458984375" width="169" height="169"></rect>
+            <rect id="Rectangle-Copy-20" fill="#1F584B" x="0.18359375" y="84.9589844" width="84.5" height="84.5"></rect>
+            <rect id="Rectangle-Copy-21" fill="#212322" x="25.8144531" y="110.589844" width="33.2382813" height="33.2382813"></rect>
+            <rect id="Rectangle-Copy-22" fill="#3B9F6B" x="0.18359375" y="0.458984375" width="84.5" height="84.5"></rect>
+            <rect id="Rectangle-Copy-23" fill="#3B9F6B" x="0.18359375" y="202.947266" width="31.5390625" height="31.5390625"></rect>
+            <rect id="Rectangle-Copy-24" fill="#1F584B" x="0.18359375" y="247.974609" width="31.5390625" height="31.5390625"></rect>
+            <rect id="Rectangle-Copy-25" fill="#212322" x="0.18359375" y="293.001953" width="31.5390625" height="31.5390625"></rect>
+            <text id="Pantone-355-UP" font-family="KentosT16-Light, Kentos T16" font-size="12" font-weight="300" fill="#9599AF">
+                <tspan x="43.1835938" y="231.486328">Pantone 355 UP</tspan>
+            </text>
+            <text id="Pantone-3302-CP" font-family="KentosT16-Light, Kentos T16" font-size="12" font-weight="300" fill="#9599AF">
+                <tspan x="43.1835938" y="277.513672">Pantone 3302 CP</tspan>
+            </text>
+            <text id="Pantone-419" font-family="KentosT16-Light, Kentos T16" font-size="12" font-weight="300" fill="#9599AF">
+                <tspan x="43.1835938" y="322.541016">Pantone 419</tspan>
+            </text>
+            <text id="Heron" font-family="KentosT16-SemiBold, Kentos T16" font-size="14" font-weight="500" fill="#1D1E22">
+                <tspan x="43.1835938" y="214.486328">Heron</tspan>
+            </text>
+            <text id="Lucerne" font-family="KentosT16-SemiBold, Kentos T16" font-size="14" font-weight="500" fill="#1D1E22">
+                <tspan x="43.1835938" y="260.513672">Lucerne</tspan>
+            </text>
+            <text id="Aranium" font-family="KentosT16-SemiBold, Kentos T16" font-size="14" font-weight="500" fill="#1D1E22">
+                <tspan x="43.1835938" y="305.541016">Aranium</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
